@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ChangeEvent } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import { Table } from "./table/table";
 import { TableCell } from "./table/table-cell";
 import { TableHeader } from "./table/table-header";
@@ -31,8 +31,7 @@ export function FoodCompositionList() {
   );
 
   useEffect(() => {
-    var url = new URL("https://localhost:7122/api/foodcomposition/");
-    url.searchParams.set("search", search);
+    var url = `https://localhost:7122/api/foodcomposition/${search}`;
 
     fetch(url)
       .then((response) => response.json())
