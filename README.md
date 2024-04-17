@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto de WebScrapping de composição de alimentos </h1>
+<h1 align="center"> Projeto de WebScrapping de composição de alimentos - Frontend </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
